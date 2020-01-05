@@ -16,7 +16,7 @@
  ## PreRequired packages
  
  1) Mobile Robot Configuration http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
- 2) Turtlebot mangement from workstation http://wiki.ros.org/ROS/Tutorials/MultipleMachines
+ 2) Turtlebot mangement from we http://wiki.ros.org/ROS/Tutorials/MultipleMachines
  
  ## Localization and Mapping 
  First we need to Install packages for Rplidar and kinect sensors into your cankin workspace in the turtlebot pc into /scr folder so for that clone this repository and follow the steps.
@@ -32,6 +32,20 @@ In this Task First, we have to create a Map using a gmapping package. The gmappi
 ![image 1](https://github.com/bhargav011/ROS-Turtlebot-Project/blob/master/map/Screenshot%20from%202019-12-20%2013-54-05.png)
 
 here is the image visualize after creating the map.
+
+after that, we created the launch file which shows the initial position of our robot into the map after we another two launch files that go to the goal position 1 and 2 where our QR code will be there so for this launch files we set the coordinates to find the goal position. the files are located into the turtlebot pc /ros_turtlebot/ros/kinetic/catkin_ws/src/turtlebot_vibot/turtlebot_vibot_nav/launch.
+
+```
+<launch>
+		<!--Here we give a first goal position command to the turtlebot -->
+	<node name="goal_pose" pkg="rostopic" type="rostopic" args="pub /move_base_simple/goal geometry_msgs/PoseStamped '{ header: {stamp: now, frame_id: 'map'}, pose: { position: {x: -0.947343051434, y: -4.51226091385, z: 0.000}, orientation: {x: 0.000, y: 0.000, z: -0.863717802108, w: 0.503975751721}}}'"/> 
+	
+</launch>
+```
+
+
+
+
 
  
  
