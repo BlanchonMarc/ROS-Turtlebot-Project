@@ -21,12 +21,12 @@
  ## Localization and Mapping 
  First we need to Install packages for Rplidar and kinect sensors into your cankin workspace in the turtlebot pc into /scr folder so for that clone this repository and follow the steps.
 https://github.com/roboticslab-fr/turtlebot_vibot
-'''bash
+```
 git clone  https://github.com/roboticslab-fr/turtlebot_vibot
 cd </catkin_ws>
 catkin make
 rospack profile
-'''
+```
 In this Task First, we have to create a Map using a gmapping package. The gmapping package gives laser-based SLAM      (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Utilizing slam_gmapping, you can make a 2-D inhabitance framework map (like a structure floorplan) from a laser and posture information gathered by a versatile rob
 
 
