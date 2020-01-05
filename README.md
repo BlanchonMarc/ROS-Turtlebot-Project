@@ -31,7 +31,7 @@ In this Task First, we have to create a Map using a gmapping package. The gmappi
 for that follow the tutorial https://github.com/roboticslab-fr/turtlebot_vibot/tree/master/turtlebot_vibot_nav
 ![image 1](https://github.com/bhargav011/ROS-Turtlebot-Project/blob/master/map/Screenshot%20from%202019-12-20%2013-54-05.png)
 
-
+here is the image visualize after creating the map.
 
  
  
