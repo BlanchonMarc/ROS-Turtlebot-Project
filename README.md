@@ -28,6 +28,7 @@ catkin make
 rospack profile
 ```
 In this Task First, we have to create a Map using a gmapping package. The gmapping package gives laser-based SLAM      (Simultaneous Localization and Mapping), as a ROS node called slam_gmapping. Utilizing slam_gmapping, you can make a 2-D inhabitance framework map (like a structure floorplan) from a laser and posture information gathered by a versatile rob
+for that follow the tutorial https://github.com/roboticslab-fr/turtlebot_vibot/tree/master/turtlebot_vibot_nav
 
 
 
