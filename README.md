@@ -21,7 +21,7 @@
  ## Localization and Mapping 
  First we need to Install packages for Rplidar and kinect sensors into your cankin workspace in the turtlebot pc into /scr folder so for that clone this repository and follow the steps.
 https://github.com/roboticslab-fr/turtlebot_vibot
-'''
+'''bash
 git clone  https://github.com/roboticslab-fr/turtlebot_vibot
 cd </catkin_ws>
 catkin make
