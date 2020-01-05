@@ -48,6 +48,17 @@ the launch file of first goal position show in below.
 
 for the Qr detection, we use pyzbar and OpenCV library. Here we use simple code using this library that scans the code and shows the result. 
 QR code contains three types of data like type, data, and location moreover in the python code we use the CV_bridge for converting OpenCV image into ros image.  CvBridge is a ROS library that provides an interface between ROS and OpenCV. CvBridge can be found in the cv_bridge package in the vision_opencv stack. 
+Here we saw the launch file that launches our python file to detect the QR code and open the RGB Kinect camera. this file contains CV_bridge that convert into opecv image into ros image.
+```
+<launch>
+  <node pkg="rbx1_vision" name="cv_bridge_demo" type="cv_hardik.py" output="screen">
+    <remap from="input_rgb_image"   to="/camera/rgb/image_rect_color" />
+    <remap from="input_depth_image" to="/camera/depth_registered/image_raw" />
+  </node>
+  
+</launch>
+```
+### result image 
 
 
 
