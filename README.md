@@ -1,4 +1,6 @@
 # ROS-Turtlebot-Project
 
 
-## Introduction
+## Members 
+  * SHAH Bhargav
+  * PARMAR Hardiksinh
