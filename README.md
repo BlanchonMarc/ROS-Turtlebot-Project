@@ -34,6 +34,7 @@ In this Task First, we have to create a Map using a gmapping package. The gmappi
 here is the image visualize after creating the map.
 
 after that, we created the launch file which shows the initial position of our robot into the map after we another two launch files that go to the goal position 1 and 2 where our QR code will be there so for this launch files we set the coordinates to find the goal position. the files are located into the turtlebot pc /ros_turtlebot/ros/kinetic/catkin_ws/src/turtlebot_vibot/turtlebot_vibot_nav/launch.
+the launch file of first goal position show in below. 
 
 ```
 <launch>
@@ -42,6 +43,11 @@ after that, we created the launch file which shows the initial position of our r
 	
 </launch>
 ```
+
+## Computer Vision
+
+for the Qr detection, we use pyzbar and OpenCV library. Here we use simple code using this library that scans the code and shows the result. 
+QR code contains three types of data like type, data, and location moreover in the python code we use the CV_bridge for converting OpenCV image into ros image.  CvBridge is a ROS library that provides an interface between ROS and OpenCV. CvBridge can be found in the cv_bridge package in the vision_opencv stack. 
 
 
 
