@@ -7,6 +7,11 @@
   
 ## Table of contents
   * [Introduction](#Introduction)
+  * [PreRequired packages](#PreRequired-packages)
+  * [Localization and Mapping](#Localization-and-Mapping)
+  * [Computer Vision](#Computer-Vision)
+  * [step to run project](#step-to-run-project)
+  * [VIDEO](#VIDEO)
   
 ## Introduction
  The motto of this project is to familiarise with ROS and Create the map in a certain environment and autonomously move the Robot (Turtle bot 2) to the desired location in the map where we have to scan the QR code and the detect the text. 
@@ -15,8 +20,11 @@
  
  ## PreRequired packages
  
- 1) Mobile Robot Configuration http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
- 2) Turtlebot mangement from we http://wiki.ros.org/ROS/Tutorials/MultipleMachines
+ 1)Building ROS Environment for the Project : http://wiki.ros.org/kinetic/Installation/Ubuntu
+ 					      http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+					      https://wiki.ros.org/ROS/EnvironmentVariables
+ 2) Mobile Robot Configuration: http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
+ 3) Turtlebot mangement from we: http://wiki.ros.org/ROS/Tutorials/MultipleMachines
  
  ## Localization and Mapping 
  First we need to Install packages for Rplidar and kinect sensors into your cankin workspace in the turtlebot pc into /scr folder so for that clone this repository and follow the steps.
