@@ -58,8 +58,8 @@ Here we saw the launch file that launches our python file to detect the QR code 
   
 </launch>
 ```
-### result image 
 
+## step to run project 
 
 
 
