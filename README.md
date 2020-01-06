@@ -65,12 +65,34 @@ Here we saw below the launch file that launches our python file to detect the QR
 ```
 ssh turtlebot@192.168.0.100
 ```
-2)To start the TurtleBot with RP-LiDAR - on the Turtlebot laptopt 
+2) To start the TurtleBot with RP-LiDAR on the Turtlebot laptopt 
 ```
 roslaunch turtlebot_vibot_bringup minimal_rplidar.launch
 ```
-3) 
-
+3) Start the Kinect on the Turtlebot laptop.
+```
+roslaunch turtlebot_vibot_bringup 3dsensor_rplidar.launch
+```
+4) Start amcl_demo (turtlebot laptop)
+```
+roslaunch turtlebot_vibot_nav amcl_demo_rplidar.launch map_file:=...ABSOLUTE_PATH/catkin_ws/src/turtlebot_vibot/turtlebot_vibot_nav/maps/my_map.yaml
+```
+5) lauch .py file for Qr code detection(workstation)
+```
+roslaunch rbx1_vision cv_hardik.launch
+```
+6) rvis launch (workstation)
+ ```
+ roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+ ```
+ 7) launch file for intial position to goal 1 position (turtlebot)
+ ```
+ roslaunch turtlebot_vibot_nav mscv_goal1.launch
+ ```
+ 8) launch file for goal 1 position to goal 2 positio (turtlebot)
+ ```
+ roslaunch turtlebot_vibot_nav mscv_goal2.launch
+ ```
  
  
  
