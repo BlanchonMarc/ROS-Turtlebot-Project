@@ -1,0 +1,5 @@
+<launch>
+		<!--Here we give a first goal position command to the turtlebot -->
+	<node name="goal_pose" pkg="rostopic" type="rostopic" args="pub /move_base_simple/goal geometry_msgs/PoseStamped '{ header: {stamp: now, frame_id: 'map'}, pose: { position: {x: -0.695830225945, y: -0.167694091797, z: 0.000}, orientation: {x: 0.000, y: 0.000, z: 0.969398125639, w:  0.245493938842}}}'"/> 
+	
+</launch>
