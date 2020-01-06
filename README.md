@@ -21,9 +21,9 @@
  ## PreRequired packages
  
  1)Building ROS Environment for the Project : 
- http://wiki.ros.org/kinetic/Installation/Ubuntu
- http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
- https://wiki.ros.org/ROS/EnvironmentVariables
+ * http://wiki.ros.org/kinetic/Installation/Ubuntu
+ * http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+ * https://wiki.ros.org/ROS/EnvironmentVariables
  2) Mobile Robot Configuration: http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
  3) Turtlebot mangement from we: http://wiki.ros.org/ROS/Tutorials/MultipleMachines
  
