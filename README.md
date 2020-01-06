@@ -6,7 +6,7 @@
   * PARMAR Hardiksinh
   
 ## Table of contents
-  
+  * [Introduction](#Introduction)
   
 ## Introduction
  The motto of this project is to familiarise with ROS and Create the map in a certain environment and autonomously move the Robot (Turtle bot 2) to the desired location in the map where we have to scan the QR code and the detect the text. 
