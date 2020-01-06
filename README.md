@@ -48,7 +48,7 @@ the launch file of first goal position show in below.
 
 for the Qr detection, we use pyzbar and OpenCV library. Here we use simple code using this library that scans the code and shows the result. 
 QR code contains three types of data like type, data, and location moreover in the python code we use the CV_bridge for converting OpenCV image into ros image.  CvBridge is a ROS library that provides an interface between ROS and OpenCV. CvBridge can be found in the cv_bridge package in the vision_opencv stack. 
-Here we saw the launch file that launches our python file to detect the QR code and open the RGB Kinect camera. this file contains CV_bridge that convert into opecv image into ros image.
+Here we saw below the launch file that launches our python file to detect the QR code and open the RGB Kinect camera. this file contains CV_bridge that convert into opecv image into ros image. python file located in /ROS Desktop/ros/kinetic/catkin_ws/src/rbx1/rbx1_vision/nodes
 ```
 <launch>
   <node pkg="rbx1_vision" name="cv_bridge_demo" type="cv_hardik.py" output="screen">
@@ -61,8 +61,15 @@ Here we saw the launch file that launches our python file to detect the QR code 
 
 ## step to run project 
 
-
-
+1) Connect to turtlebot from the workstation
+```
+ssh turtlebot@192.168.0.100
+```
+2)To start the TurtleBot with RP-LiDAR - on the Turtlebot laptopt 
+```
+roslaunch turtlebot_vibot_bringup minimal_rplidar.launch
+```
+3) 
 
  
  
