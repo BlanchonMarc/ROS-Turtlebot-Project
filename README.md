@@ -20,7 +20,7 @@
  
  ## PreRequired packages
  
- 1)Building ROS Environment for the Project : 
+ 1) Building ROS Environment for the Project : 
  * http://wiki.ros.org/kinetic/Installation/Ubuntu
  * http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
  * https://wiki.ros.org/ROS/EnvironmentVariables
